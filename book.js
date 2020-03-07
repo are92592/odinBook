@@ -10,13 +10,9 @@ var pages = document.getElementsByClassName("numPages");
 var readButton = document.getElementById("read");
 var deleteButton = document.getElementById("delete");
 var list = document.getElementById("list");
-
 var books = document.getElementsByClassName("book");
-
 var add = document.getElementById("add");
-
 var addButton = document.getElementById("addButton");
-
 let myLibrary = [];
 
 submit.addEventListener("click", function(event) {
@@ -33,9 +29,6 @@ submit.addEventListener("click", function(event) {
     console.log(myLibrary);
 
 });
-
-//change yes/no data to list
-///expand add book segment
 
 
 document.addEventListener("click", function(event) {
@@ -92,7 +85,6 @@ addBookToLibrary(book2);
 
 function  addBookToLibrary(book) {
     myLibrary.push(book);
-    //console.log(myLibrary);
 }
 
 
@@ -143,21 +135,3 @@ function addToDisplayListInit(title, author, pages, read) {
        }
    }
 
-   /*addButton.addEventListener("click", function(event) {
-       if(add.height === "0") {
-        inputExpand();
-       } else {
-           inputCollapse();
-       }
-       
-   });*/
-
-   function inputExpand() {
-        add.style.height = "400px";
-        add.style.marginLeft = "250px";
-   }
-
-   function inputCollapse() {
-        add.style.height = "0";
-        add.style.marginLeft = "0";
-   }
