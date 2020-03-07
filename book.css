@@ -1,0 +1,125 @@
+.book {
+    padding-bottom: 25px;
+    height: 75px;
+    border-bottom: 1px solid grey; 
+}
+
+.book a {
+    padding-right: 20px;
+    /*font-size: small;*/
+}
+
+.book button {
+    padding-right: 20px;
+}
+
+a {
+    width: 40px;
+    height: 40px;
+    font-size: x-large;
+    white-space: 30px;
+}
+
+#col-2 {
+    position: absolute;
+    right:10px;
+}
+
+.book button {
+    white-space: 30px;
+    font-size: x-large;
+}
+
+.delete {
+    white-space: 30px;
+    font-size: x-large;
+    position: relative;
+    left: 40px;
+}
+
+#list {
+    position: relative;
+    top: 200px;
+}
+
+#add {
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.form-check {
+    position: relative;
+    top: 20px;
+}
+
+#categories {
+    display: inline;
+    position: relative;
+    top: 200px;
+    right: 230px;
+}
+
+
+#categories a {
+    padding-left: 232px;
+}
+
+
+.form-control {
+    width: 200px;
+}
+
+.titleBook {
+    position: relative;
+    left: 10px;
+}
+
+#categories .title {
+    position: relative;
+    left: 10px;
+}
+
+#categories .author {
+    position: absolute;
+    left: 700px;
+}
+
+#categories .pages {
+    position: absolute;
+    left: 1000px;
+}
+
+#categories .read {
+    position: absolute;
+    left: 1100px;
+}
+
+#categories .delete {
+    position: absolute;
+    left: 1200px;
+}
+
+.authorBook {
+    position: absolute;
+    left: 700px;
+}
+
+.numPages {
+    position: absolute;
+    left: 1000px;
+}
+
+.read {
+    position: absolute;
+    left: 1100px;
+}
+
+.delete {
+    position: absolute;
+    left: 1200px;
+}
+
+
+
+
